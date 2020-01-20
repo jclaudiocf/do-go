@@ -27,3 +27,6 @@ JSON example for request `POST` and `PUT or PATCH`:
 - Set a tag on local image `docker tag device-manager-api jclaudiocf/device-manager-api`
 - Publish an image `docker push jclaudiocf/device-manager-api`
 - Run container from docker hub image `docker run -p8000:8000 -d --rm jclaudiocf/device-manager-api`
+
+# Docker compose
+- Run container `docker-compose up -d`
