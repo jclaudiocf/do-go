@@ -1,6 +1,10 @@
 # Project
 > Device manager to practice Golang.
 
+# Technologies
+- resty (Rest client)
+- clif (Command line client)
+
 # Build
 - Build and generate bin file `go build -o dmc cmd/device_manager_cli.go`
 
