@@ -1,10 +1,10 @@
 package cli
 
 type DeviceDto struct {
-	Id			string		`json:"id"`
 	Nickname	string		`json:"nickname"`
 	Owner		string		`json:"owner"`
 	Ip			string		`json:"ip"`
+	Id			string		`json:"id"`
 }
 
 type DevicePageable struct {

@@ -26,10 +26,10 @@ func CallbackList(_ *clif.Command) {
 	_ = json.NewDecoder(reader).Decode(&devicePageable)
 
 	for _, device := range devicePageable.Devices {
-		fmt.Println("Id: ", device.Id)
+		fmt.Println("Id......: ", device.Id)
 		fmt.Println("Nickname: ", device.Nickname)
-		fmt.Println("Owner: ", device.Owner)
-		fmt.Println("Ip: ", device.Ip)
+		fmt.Println("Owner...: ", device.Owner)
+		fmt.Println("Ip......: ", device.Ip)
 		fmt.Println("")
 	}
 
