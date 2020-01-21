@@ -4,6 +4,8 @@
 *.dll
 *.so
 *.dylib
+dmi
+device_manager_api
 
 # Test binary, built with `go test -c`
 *.test
