@@ -1,2 +1,2 @@
-# Directory
-> Repo to practice Golang.
+# Project
+> Repository to Go study
