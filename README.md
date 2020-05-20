@@ -1,2 +1,1 @@
-# Project
-> Repository to Go study
+> Golang study repository
